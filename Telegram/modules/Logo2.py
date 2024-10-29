@@ -196,7 +196,7 @@ async def logo_(event):
         await tbot.send_file(
             event.chat_id,
             file=flnme,
-            caption="Logo by [@SUPERIOR_BOTS](https://t.me/SUPERIOR_BOTS)",
+            caption="Logo by [KOMI](https://t.me/Komi_RoxBot)",
             force_document=False,
         )
         os.remove(flnme)
