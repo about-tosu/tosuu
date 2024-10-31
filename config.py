@@ -37,8 +37,8 @@ class Config(object):
     CUSTOM_CMD = False
     CHANNEL = getenv("CHANNEL", "about_tosuu")
     SUPPORT = getenv("SUPPORT", "about_tosuu")
-    START_IMG = os.environ.get("START_IMG", "https://telegra.ph/file/35a7b5d9f1f2605c9c0d3.png")
-    CMD_IMG = os.environ.get("CMD_IMG", "https://telegra.ph/file/66518ed54301654f0b126.png")
+    START_IMG = os.environ.get("START_IMG", "https://envs.sh/0Nz.jpg")
+    CMD_IMG = os.environ.get("CMD_IMG", "https://envs.sh/0Nz.jpg")
     CASH_API_KEY = getenv("CASH_API_KEY", "https://www.alphavantage.co/support/#api-key")
     TIME_API_KEY = getenv("TIME_API_KEY", "https://timezonedb.com/api")
     WALL_API = getenv("WALL_API", "https://wall.alphacoders.com/api.php")
