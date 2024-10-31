@@ -12,8 +12,8 @@ class Config(object):
     API_HASH = getenv("API_HASH", "4e984ea35f854762dcde906dce426c2d")
     TOKEN = getenv("TOKEN", "7916855567:AAFWQ7BT7iA6FNJG61RhOkwZFu9YE5OykWI")
     OWNER_ID = getenv("OWNER_ID", "6848223695")
-    ASSISTANT_ID = getenv("ASSISTANT_ID", "6309921371")
-    STRING_SESSION = getenv("STRING_SESSION", "1BVtsOIwBuxm73zc3h8jLCR4n5qTprhgRHX1KuXpc0jF8vxWkye-e5bdoZF_7jjUOHng0-RN3OiayzADyeQjD_5Qz-1scGquzeecI7pxMEOVKwpy4qSyyQ3WDWOFnouaOOMhMB1LW29XRCqRHPsgwaEs0qTFIgWVWkDbCeke4o2OMnlV7DGYVl4XH84w-yBDSqKSab00DqPdtnDWiSi2WulIytumIKcZFZFnA7pr_kB2mab5cxd5GdfNCRg5O1288wMSqepfmkE5W8LM_PwWv5tR7_yFntdMiEq9gQX2nhi9ZH-iVMdAU0WXsTW7wAwR6hGuA-O_jrR1ujtpfjf-FDhMrGlrodGo=") #telethon
+    ASSISTANT_ID = getenv("ASSISTANT_ID", "")
+    STRING_SESSION = getenv("STRING_SESSION", "") #telethon
     OWNER_USERNAME = getenv("OWNER_USERNAME", "its_damiann")
     DB_URI = getenv("DATABASE_URL", "postgres://qwigcssg:Gw4aOvGb4pv4C5GV9ELI5lbNCtyazisQ@flora.db.elephantsql.com/qwigcssg")
     DB_URI = DB_URI.replace("postgres", "postgresql")
