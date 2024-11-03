@@ -10,7 +10,7 @@ class Config(object):
     log = True
     APP_ID = getenv("API_ID", "6435225")
     API_HASH = getenv("API_HASH", "4e984ea35f854762dcde906dce426c2d")
-    TOKEN = getenv("TOKEN", "7916855567:AAFWQ7BT7iA6FNJG61RhOkwZFu9YE5OykWI")
+    TOKEN = getenv("TOKEN", "7628114935:AAEdA7ZOfC353Oq8WrCIrJxf47MLRgVKGls")
     OWNER_ID = getenv("OWNER_ID", "6848223695")
     ASSISTANT_ID = getenv("ASSISTANT_ID", "")
     STRING_SESSION = getenv("STRING_SESSION", "") #telethon
