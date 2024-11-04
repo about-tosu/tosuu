@@ -10,12 +10,12 @@ class Config(object):
     log = True
     APP_ID = getenv("API_ID", "6435225")
     API_HASH = getenv("API_HASH", "4e984ea35f854762dcde906dce426c2d")
-    TOKEN = getenv("TOKEN", "7628114935:AAEdA7ZOfC353Oq8WrCIrJxf47MLRgVKGls")
+    TOKEN = getenv("TOKEN", "")
     OWNER_ID = getenv("OWNER_ID", "6848223695")
     ASSISTANT_ID = getenv("ASSISTANT_ID", "6309921371")
     STRING_SESSION = getenv("STRING_SESSION", "1BVtsOIwBu0G3IDN8QqYLOwZj6Kt58D_gDP_5cWKqm0X3KiGL3IK6iZ511qbDmfExP5UdAF3otEeoPf1gCT6l3JgbvyKoWd6D9Lykr72JEKd1Km8b0VeRzCygB7vPARmU5jd_cZ8NEAnaTEMMIvOKGuyPUzh6kHd71bsHZfmWuzMp7WbU3oHYloIuSZuddjemueRSerH-O6KskAOz1MNrjiqVe_5iRb-zkTp3wjGM6uI6Lx1kesCmhqZ64s66jhPLo6VdF85eSZlJukHkMGgCppSHI9f2uuTHUez0ibAXuSvJPvLsXgnJE6YwnIJ7tQJJDLQC8clAKlddHSJBTD91LqIB_bcRiKw=") #telethon
     OWNER_USERNAME = getenv("OWNER_USERNAME", "its_damiann")
-    DB_URI = getenv("DATABASE_URL", "postgres://qwigcssg:Gw4aOvGb4pv4C5GV9ELI5lbNCtyazisQ@flora.db.elephantsql.com/qwigcssg")
+    DB_URI = getenv("DATABASE_URL", "")
     DB_URI = DB_URI.replace("postgres", "postgresql")
     MESSAGE_DUMP = getenv("MESSAGE_DUMP", "-1002023182491")
     GBAN_LOGS = getenv("GBAN_LOGS", "-1002023182491")
